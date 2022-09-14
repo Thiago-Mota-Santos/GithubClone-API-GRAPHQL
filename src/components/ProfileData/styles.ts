@@ -31,8 +31,19 @@ export const Flex = styled.div`
         margin-top: 4px;
     }
 
-
 }
+    @media screen and (min-width: 768px){
+        flex-direction: column;
+        align-items: flex-start;
+
+        >div{
+            margin-left: 0;
+            margin-top: 16px;
+        }
+
+        
+    }
+    
 `;
  export const  Row = styled.ul`
     display: flex;
@@ -54,10 +65,15 @@ export const Flex = styled.div`
     }
  `;
 
-export const  AvatarUrl = styled.img`
+export const AvatarUrl = styled.img`
     border-radius: 50%;
     width: 16%;
     flex-shrink: 0;
+
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        
+    }
 `;
 
  export const IconCss = css`
@@ -67,7 +83,22 @@ export const  AvatarUrl = styled.img`
     flex-shrink: 0;
  `;
  export const  Column = styled.ul`
- 
+    li{
+        display:flex;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    li + li {
+        margin-top : 10px;
+    }
+
+    span {
+        margin-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
  `;
  export const  PeopleIcon = styled(RiGroupLine)`
     ${IconCss}

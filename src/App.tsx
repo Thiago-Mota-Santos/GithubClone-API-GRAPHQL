@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Profile from "./components/Profile";
+import Profile from "./pages/Home";
 import Repo from "./pages/Repo";
 import { GlobalStyle } from "./styles/GlobalStyles";
 

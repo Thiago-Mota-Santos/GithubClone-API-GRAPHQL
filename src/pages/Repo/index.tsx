@@ -1,10 +1,9 @@
 import React from "react";
+
 import { Container } from "./styles";
 
-export default function repos() {
-  return (
-    <Container>
-      <div>repos</div>
-    </Container>
-  );
-}
+const Repo: React.FC = () => {
+  return <Container></Container>;
+};
+
+export default Repo;
