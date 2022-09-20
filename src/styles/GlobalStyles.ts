@@ -31,7 +31,6 @@ export const GlobalStyle = createGlobalStyle`
     --orange: #f9826c;
     --logo: #fff;
     --header: #24292e;
-    --username: #666;
     --search: rgba(255, 255, 255, 0.13);
     --search-placeholder: hsla(0, 0%, 100%, .75);
     --icon: #6a737d;

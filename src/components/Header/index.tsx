@@ -1,4 +1,4 @@
-import { Container, GitHubLogo, Form, Input } from "./styles";
+import { Container, GitHubLogo, Form, } from "./styles";
 
 export default function Header() {
   return (

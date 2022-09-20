@@ -6,7 +6,6 @@ import { AiOutlineFork } from 'react-icons/ai'
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
- // justify-content: center;
   justify-content: space-between;
   border: 1px solid var(--border);
   padding: var(--verticalPadding);

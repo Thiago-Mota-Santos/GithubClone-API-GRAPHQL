@@ -72,6 +72,7 @@ export const AvatarUrl = styled.img`
 
     @media screen and (min-width: 768px) {
         width: 100%;
+        margin-top: -34px;
         
     }
 `;
