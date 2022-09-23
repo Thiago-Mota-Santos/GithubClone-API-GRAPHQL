@@ -1,6 +1,7 @@
-import 'react-calendar-heatmap/dist/styles.css'
+import "react-calendar-heatmap/dist/styles.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Profile from "./pages/Home";
 import Repo from "./pages/Repo";
@@ -13,8 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Profile />}></Route>
         <Route path="/:username" element={<Profile />}></Route>
-        <Route path="/username/:repo" element={<Repo />}></Route>
+        <Route path="/:username/:reponame" element={<Repo />}></Route>
       </Routes>
+      <Footer />
       <GlobalStyle />
     </BrowserRouter>
   );
