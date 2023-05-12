@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FaGithub } from 'react-icons/fa'
 
 export const Container = styled.div`
     display: flex;
@@ -13,3 +14,10 @@ export const Line = styled.div`
     width: 100%;
     border-top: 1px solid var(--border)
 `;
+
+export const GitHubLogo = styled(FaGithub)`
+    margin-top: 25px;
+    height: 24px;
+    width: 24px;
+    fill: var(--border);
+`
