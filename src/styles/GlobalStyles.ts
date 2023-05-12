@@ -45,5 +45,6 @@ export const GlobalStyle = createGlobalStyle`
     --javascript: #f1e05a;
     --typescript: #2b7489;
     --other-language: #8257e5;
+    --white: #ffffff;
 }
 `;
